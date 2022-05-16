@@ -4,10 +4,19 @@
     |
     <router-link to="/about">About</router-link>
     |
-    <router-link to="/consultations/new">Consultation Form</router-link>
+    <router-link to="/form">Form</router-link>
   </nav>
   <router-view />
 </template>
+<script>
+// import QuestionForm from "./components/QuestionForm.vue";
+// import QuestionForm from "./views/QuestionForm.vue";
+
+export default {
+  name: "App",
+  // components: { QuestionForm },
+};
+</script>
 
 <style>
 #app {
@@ -16,8 +25,12 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  margin-top: 60px;
 }
-
+body {
+  margin: 0;
+  background: #eee;
+}
 nav {
   padding: 30px;
 }
