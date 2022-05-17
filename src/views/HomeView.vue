@@ -11,9 +11,11 @@ export default {
 </script>
 
 <template>
-  <div class="home">
-    <h1>{{ message }}</h1>
-  </div>
+  <body class="home-bg">
+    <div class="home">
+      <h1>{{ message }}</h1>
+    </div>
+  </body>
 </template>
 
 <style>

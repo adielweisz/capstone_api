@@ -72,6 +72,7 @@ label {
   text-align: center;
   letter-spacing: 1px;
   font-weight: bold;
+  font-family: "Raleway", sans-serif;
 }
 input {
   display: block;
