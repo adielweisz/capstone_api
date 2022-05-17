@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import QuestionForm from "../views/QuestionForm.vue";
+import ProductIndex from "../views/ProductIndex.vue";
 
 const routes = [
   {
@@ -28,6 +29,11 @@ const routes = [
   //   name: "question-new",
   //   component: QuestionNew,
   // },
+  {
+    path: "/products",
+    name: "product",
+    component: ProductIndex,
+  },
 ];
 
 const router = createRouter({
